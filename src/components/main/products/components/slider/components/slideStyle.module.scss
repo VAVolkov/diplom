@@ -1,0 +1,53 @@
+.main{
+    width: 1349px;
+    height: 605px;    
+}
+
+.name{
+    width: 662px;
+    height: 70px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+
+    margin: 87px 0 0 86px;
+}
+
+.text{
+    width: 466px;
+    height: 90px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 40px 0 0 86px;
+}
+
+.image{
+    width: 636.65px;
+    height: 548.71px;
+
+    margin: -218px 0 0 562.35px;
+    z-index: -1;
+}
+
+.btn{
+    width: 283px;
+    height: 41px;
+    //padding: 15px 39px 16px 40px;
+    padding-top: 15px;
+    text-align: center;
+    background-color: #F9B300;
+    border-radius: 3.54254px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    color: #FFFFFF;
+
+    margin: -302px 0 0 86px;
+}

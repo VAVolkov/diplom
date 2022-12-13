@@ -1,12 +1,15 @@
 .mainHeader{
     width: 1349px;
     height: 113px;
-    background-color: rgb(231, 119, 33);
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
-.image{
+.imageLogo{
     width: 179px;
     height: 80px;
     margin: 20px 0 0 84px;
@@ -16,17 +19,37 @@
     width: 144px;
     height: 21px;
     margin: 50px 0 0 212px ;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .blog{
     width: 39px;
     height: 21px;
     margin: 50px 0 0 66px ;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .contacts{
     width: 80px;
     height: 21px;
     margin: 50px 0 0 66px ;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
 }
 
+.imageSearch{
+    width: 22px;
+    height: 22px;
+    margin: 49px 0 0 248px;
+}
+
+.imageBin, .imageLogin{
+    width: 22px;
+    height: 22px;
+    margin: 49px 0 0 40px;
+}
