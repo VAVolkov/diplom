@@ -9,14 +9,35 @@
         list-style: none;
         text-align: center;
         top: 0;
-        
+        left: 560px;
+        z-index: 2;
+
         li{
+            background: white;
             button{
+
+                background: white; // цвет фона
+                border: none; // без рамки
+                border-radius: 50%; // радиус закругления
+                height: 14px; // высота точки
+                width: 14px; // ширина точки
+                margin: 5px; // отступы между точками
+                outline: none; // убираем обводку
+
                 &::before{
 
                 }
             }
         }
+
+        li[class="slick-active"] button {
+            background: #40241D;
+        }
     }  
+
+    
+
+
+
 }
 
