@@ -1,8 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .mainList{
     margin: 0 auto;
     width: 1349px;
-    min-height: 2000px;
+    min-height: 3000px;
     display: flex;
     flex-direction: column;
-    background-color: #FFFFFF;
+    background-color: #fff;
+    overflow: hidden;
 }

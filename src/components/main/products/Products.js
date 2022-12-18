@@ -1,7 +1,8 @@
 import React from 'react';
 import SliderBox from './components/slider/SliderBox';
 import Catalog from './components/catalog/Catalog';
-//import bg1 from '../../../components/main/products/images/bg1.png';
+import SliderProducts from './components/sliderProducts/SliderProducts'
+import bernsCoffee from '../../../components/main/products/images/bernsCoffee.svg';
 
 import styles from './productsStyle.module.scss';
 
@@ -12,9 +13,9 @@ export default function Products() {
     <div className={styles.main}>
         <SliderBox />
         <Catalog />
+        <SliderProducts />
 
-
-        {/* <img src={bg1} className = {styles.image} alt=""/> */}
+        <img src={bernsCoffee} className = {styles.image} alt=""/>
         
     </div>
     ); 

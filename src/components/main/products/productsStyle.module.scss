@@ -1,10 +1,17 @@
-.image{
-    position: absolute;
-    top: 113px;
-    right: 258px;
-    z-index: -1;
+.main{
+    position: relative;
+    background: right top url("../products/images/bg1.png") no-repeat,
+    left top 610px url("../products/images/bg2.png") no-repeat;
 }
 
-.item {
-    background-image: "../products/images/bg1.png";
+// .item {
+//     background-image: "../products/images/bg1.png";
+// }
+
+.image{
+    width: 477px;
+    height: 477px;
+    position: absolute;
+    top: 990px;
+    left: -110px;
 }

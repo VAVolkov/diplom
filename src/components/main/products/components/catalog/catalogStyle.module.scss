@@ -1,19 +1,42 @@
 .title{
-    margin: -60px 0 0 86px;
-
+    position: absolute;
+    width: 464px;
+    height: 44px;
+    left: 86px;
+    top: 615px;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 900;
     font-size: 35px;
+    line-height: 44px;
+    color: #000000;
 }
 
-.image{
+.imageCoffee{
     margin: 50px 0 0 39px;
     width: 203px;
     height: 146px;
 }
 
-.titleItems{
+.imageTeapot{
+    margin: 34px 0 0 58px;
+    width: 165px;
+    height: 196px;
+}
+
+.imageCoffeeMashine{
+    margin: 42px 0 0 43px;
+    width: 194px;
+    height: 178px;
+}
+
+.imageCereal{
+    margin: 66px 0 0 46px;
+    width: 188px;
+    height: 131px;
+}
+
+.titleCoffee, .titleTeapot, .titleCoffeeMashine, .titleCereal{
     margin: 60px 0 0 23px;
     width: 234px;
     height: 21px;
@@ -26,57 +49,61 @@
     color: #000000;
 }
 
-.item1,.item2{
-    margin: 62px 0 0 84px;
+.titleTeapot{
+    margin: 28px 0 0 23px;
+}
+
+.titleCoffeeMashine{
+    margin: 40px 0 0 23px;
+}
+
+.titleCereal{
+    margin: 63px 0 0 23px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
     width: 280px;
     height: 381px;
     background: #FFFFFF;
     box-shadow: 0px 0px 21.2553px rgba(146, 146, 146, 0.2);
     border-radius: 14px;
-}
-
-.item2{
-    margin: 62px 0 0 20px;
+    cursor: pointer;
 }
 
 .catalogItems{
+    position: absolute;
+    left: 86px;
+    top: 725px;
+    width: 1180px;
+    height: 381px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
-.item1:hover {
-    margin-top: 28px;
-    height: 415px;
-}
-.item1:hover img{
-    height: 195px;
-    margin-top: 0px;
-}
-
-.item2:hover {
-    margin-top: 28px;
-    height: 415px;
-}
-.item2:hover img{
-    height: 195px;
-    margin-top: 0px;
-}
-
-div {
-    transition: height 0.1s;
-    transition: margin-top 0.5s;
+.item:hover img{
+    transform: translate(0, -60px);
 }
 
 img{
-    transition: height 0.5s;
-    transition: margin-top 0.5s;
+    transition: transform 0.5s;
+}
+
+.item:hover div{
+    transform: translate(0, -60px);
+}
+
+div{
+    transition: transform 0.5s;
 }
 
 
 .btn{
     margin: 35px 0 0 24px;
     width: 233px;
-    height: 32px;
+    height: 42px;
     background: #F9B300;
     border-radius: 3px;
 
@@ -88,13 +115,9 @@ img{
     color: #FFFFFF;
     text-align: center;
     padding-top: 10px;
+}
+
+
+.btnCloseShow{
     display: none;
-}
-
-.btn:hover div{
-    display: contents;
-}
-
-div{
-    transition: display 0.1s;
 }

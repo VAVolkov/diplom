@@ -1,0 +1,59 @@
+.headerName{
+    position: absolute;
+    top: 1150px;
+    left: 951px;
+    width: 316px;
+    height: 44px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.headerText{
+    position: absolute;
+    left: 480px;
+    top: 1220px;
+    width: 784px;
+    height: 71px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: right;
+    color: #000000;
+}
+
+.mainProducts{
+    position: absolute;
+    left: 306px;
+    top: 620px;
+    height: 485px;
+    width: 870px;
+}
+
+.mainProducts{
+    button {
+            width: 49px;
+            height: 49px;
+        &.slick-prev {
+            background: #F9B300;
+            background: url("../sliderProducts/images/arrowLeft.png") no-repeat;
+            left: -70px;
+        }
+        &.slick-next {
+            background: #F9B300;
+            background: url("../sliderProducts/images/arrowRight.png") no-repeat;
+            right: -70px;
+        }
+        &.slick-disabled {
+            opacity: 0.5;
+        }
+        &:before {
+            display: none;
+        }
+    }
+}

@@ -18,7 +18,6 @@ export default function SliderBox() {
     }
 
     return ( 
-        
     <Slider className="main" {...settings}>
         <Slide />
         <Slide />
