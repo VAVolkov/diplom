@@ -1,0 +1,59 @@
+.main{
+    width: 1349px;
+    height: 1151px;
+    position: absolute;
+    top: 2220px;
+    background: top url("../cooking/image/bg.png") no-repeat;
+}
+
+.label{
+    position: absolute;
+    z-index: 10;
+    width: 517px;
+    height: 44px;
+    left: 84px;
+    //top: 2729px;
+    top: 528px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.text{
+    position: absolute;
+    width: 882px;
+    height: 272px;
+    left: 84px;
+    //top: 2842px;
+    top: 642px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.btn{
+    position: absolute;
+    width: 283px;
+    height: 56px;
+    left: 84px;
+    //top: 3184px;
+    top: 988px;
+    background: #F9B300;
+    border-radius: 5px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 15px;
+    cursor: pointer;
+    z-index: 10;
+}

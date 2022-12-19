@@ -1,0 +1,173 @@
+.main{
+    width: 1349px;
+    height: 850px;
+    position: absolute;
+    top: 1930px;
+    z-index: 1;
+    background: top url("../workWithUs/image/bg1_3.png") no-repeat;
+}
+
+.viewAll{
+    position: absolute;
+    width: 91px;
+    height: 17px;
+    right: 173px;
+    //top: 1944px;
+    top: 0px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    z-index: 5;
+}
+
+.answer{
+    position: absolute;
+    width: 414px;
+    height: 88px;
+    left: 684px;
+    //top: 2020px;
+    top: 90px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.iconCup{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 684px;
+    //top: 2165px;
+    top: 235px;
+    background: #F9B300;
+    border-radius: 50%;
+}
+
+.labelIconCup{
+    position: absolute;
+    width: 243px;
+    height: 25px;
+    left: 774px;
+    //top: 2165px;
+    top: 238px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.textIconCup{
+    position: absolute;
+    width: 323px;
+    height: 45px;
+    left: 774px;
+    //top: 2205px;
+    top: 285px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.iconArrow{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 684px;
+    //top: 2290px;
+    top: 370px;
+    background: #F9B300;
+    border-radius: 50%;
+}
+
+.labelIconArrow{
+    position: absolute;
+    width: 288px;
+    height: 25px;
+    left: 774px;
+    //top: 2290px;
+    top: 373px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.textIconArrow{
+    position: absolute;
+    width: 376px;
+    height: 45px;
+    left: 774px;
+    //top: 2330px;
+    top: 420px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.iconHuman{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 681px;
+    //top: 2415px;
+    top: 505px;
+    background: #F9B300;
+    border-radius: 50%;
+}
+
+.labelIconHuman{
+    position: absolute;
+    width: 189px;
+    height: 25px;
+    left: 774px;
+    //top: 2415px;
+    top: 508px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.textIconHuman{
+    position: absolute;
+    width: 358px;
+    height: 68px;
+    left: 774px;
+    //top: 2455px;
+    top: 555px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.cupWithCoffee{
+    position: absolute;
+    width: 534px;
+    height: 425px;
+    left: 86px;
+    //top: 2098px;
+    top: 180px;
+}

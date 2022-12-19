@@ -1,0 +1,167 @@
+.readAll{
+    position: absolute;
+    width: 92px;
+    height: 23px;
+    left: 1172px;
+    top: 3394px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.label{
+    position: absolute;
+    width: 309px;
+    height: 44px;
+    left: 84px;
+    top: 3377px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.card__1, .card__4{
+    position: absolute;
+    width: 680px;
+    height: 283px;
+    left: 84px;
+    top: 3465px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 21.2553px rgba(146, 146, 146, 0.2);
+    border-radius: 14px;
+    z-index: 10;
+}
+
+.card__4{
+    left: 584px;
+    top: 3768px;
+}
+
+.cardLabel__1{
+    position: absolute;
+    width: 325px;
+    height: 45px;
+    left: 300px;
+    top: 20px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.cardText__1{
+    position: absolute;
+    width: 325px;
+    height: 128px;
+    //left: 384px;
+    //top: 3563px;
+    left: 300px;
+    top: 98px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.poster{
+    position: absolute;
+    width: 238px;
+    height: 283px;
+    left: 2px;
+    //top: 3465px;
+    top: 0;
+    border-radius: 14px 0px 0px 14px;
+}
+
+.details__1{
+    position: absolute;
+    width: 94px;
+    height: 17px;
+    left: 300px;
+    top: 246px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #F9B300;
+}
+
+.card__2, .card__3{
+    position: absolute;
+    width: 480px;
+    height: 283px;
+    left: 784px;
+    top: 3465px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 21.2553px rgba(146, 146, 146, 0.2);
+    border-radius: 14.1702px;
+    z-index: 10;
+}
+
+.card__3{
+    left: 84px;
+    top: 3768px;
+}
+
+.cardLabel__2{
+    position: absolute;
+    width: 247px;
+    height: 23px;
+    left: 80px;
+    top: 50px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.cardText__2{
+    position: absolute;
+    width: 303px;
+    height: 92px;
+    left: 80px;
+    top: 102px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.details__2{
+    position: absolute;
+    width: 114px;
+    height: 18px;
+    left: 80px;
+    top: 223px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #F9B300;
+}
+
+.bg{
+    position: absolute;
+    width: 1349px;
+    height: 1500px;
+    left: 0px;
+    top: 3162px;
+    background: top url('../news/images/bg.png') no-repeat;
+}

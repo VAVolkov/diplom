@@ -1,0 +1,93 @@
+.label{
+    position: absolute;
+    width: 259px;
+    height: 43px;
+    left: 84px;
+    top: 4111px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 44px;
+    color: #000000;
+    z-index: 10;
+}
+
+.icon{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 373px;
+    top: 4103px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.phones{
+    position: absolute;
+    width: 800px;
+    height: 632px;
+    left: -30px;
+    top: 4170px;
+    z-index: 10;
+}
+
+.rectangle__1,.rectangle__2,.rectangle__3,.rectangle__4,.rectangle__5,.rectangle__6{
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    left: 584px;
+    top: 4230px;
+    background: #E9E9E9;
+    border-radius: 8px;
+    z-index: 10;
+}
+
+.rectangle__2{
+    left: 584px;
+    top: 4510px;
+    z-index: 10;
+}
+
+.rectangle__3{
+    left: 866px;
+    top: 4230px;
+    z-index: 10;
+}
+
+.rectangle__4{
+    left: 866px;
+    top: 4510px;
+    z-index: 10;
+}
+
+.rectangle__5{
+    left: 1148px;
+    top: 4230px;
+    z-index: 10;
+}
+
+.rectangle__6{
+    left: 1148px;
+    top: 4510px;
+    z-index: 10;
+}
+
+.arrowRight{
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 1264px;
+    top: 4472px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.bg{
+    position: absolute;
+    width: 1349px;
+    height: 1500px;
+    left: 0px;
+    top: 4275px;
+    background: top url('../weInInstagram/images/bg.png') no-repeat;
+}
