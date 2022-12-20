@@ -1,0 +1,174 @@
+.main{
+    position: absolute;
+    width: 1349px;
+    height: 846px;
+    top: 113px;
+    left: 0;
+    background: left top url('./images/bg.png') no-repeat;
+    overflow: hidden;
+}
+
+.comments{
+    position: absolute;
+    width: 304px;
+    height: 14px;
+    left: 85px;
+    top: 30px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.image{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    right: 0px;
+    top: -30px;
+    z-index: 1;
+}
+
+.label{
+    position: absolute;
+    width: 597px;
+    height: 62px;
+    left: 85px;
+    top: 144px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.roasting{
+    position: absolute;
+    width: 280px;
+    height: 373px;
+    left: 85px;
+    top: 301px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 21.2553px rgba(149, 149, 149, 0.25);
+    border-radius: 14.1702px;
+}
+
+.labelRoasting{
+    position: absolute;
+    width: 185px;
+    height: 25px;
+    left: 60px;
+    top: 30px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.strip__1{
+    position: absolute;
+    width: 10px;
+    height: 308px;
+    left: 20px;
+    top: 32px;
+    background: #F9B300;
+    border-radius: 7px;
+}
+
+.boxOfLine__1{
+    position: absolute;
+    width: 113px;
+    height: 17px;
+    left: 97px;
+    top: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boxOfLine__2{
+    position: absolute;
+    width: 89px;
+    height: 17px;
+    left: 97px;
+    top: 132px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boxOfLine__3{
+    position: absolute;
+    width: 65px;
+    height: 17px;
+    left: 97px;
+    top: 179px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boxOfLine__4{
+    position: absolute;
+    width: 41px;
+    height: 17px;
+    left: 97px;
+    top: 226px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boxOfLine__5{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 97px;
+    top: 273px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bean{
+    width: 17px;
+    height: 17px;
+}
+
+.checkRoasting__1,.checkRoasting__2,.checkRoasting__3,.checkRoasting__4,.checkRoasting__5{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 60px;
+    top: 85px;
+    border-radius: 50%;
+    //background: #E4E4E4;
+}
+
+.checkRoasting__2{
+    top: 132px;
+}
+
+.checkRoasting__3{
+    top: 179px;
+}
+
+.checkRoasting__4{
+    top: 226px;
+}
+
+.checkRoasting__5{
+    top: 273px;
+}
+
+.checkInactive{
+    background: #E4E4E4;
+}
+
+.checkActive{
+    background: #F9B300;
+}

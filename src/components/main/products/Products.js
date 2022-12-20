@@ -2,7 +2,7 @@ import React from 'react';
 import SliderBox from './components/slider/SliderBox';
 import Catalog from './components/catalog/Catalog';
 import SliderProducts from './components/sliderProducts/SliderProducts'
-import bernsCoffee from '../../../components/main/products/images/bernsCoffee.svg';
+import bernsCoffee from '../../../components/main/products/images/coffeeBean.png';
 
 import styles from './productsStyle.module.scss';
 

@@ -1,12 +1,17 @@
-import Main from "./components/main/Main";
+import {Route, Routes} from "react-router-dom";
 
+import Main from "./components/main/Main";
+import Catalog from "./components/catalog/Catalog";
+import NotFoundPage from "./components/notFoundPage/NotFoundPage";
 
 function App() {
   return (
     <>
-      <Main />
-    
-        
+      <Routes>
+          <Route index element = {<Main />}/>
+          <Route path="catalog" element = {<Catalog />}/>
+          <Route path="*" element = {<NotFoundPage />}/>
+      </Routes>
     </>
   );
 }

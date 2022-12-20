@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import styles from './catalogStyle.module.scss';
 import coffee from '../../../products/components/catalog/images/coffee.png';
 import cereal from '../../../products/components/catalog/images/cereal.png';
@@ -29,22 +30,22 @@ export default function Catalog() {
                 <div className={styles.item} onMouseOver = {mouthOn1} onMouseLeave = {mouthLeave1}>
                     <img src={coffee} className = {styles.imageCoffee} alt=""/>
                     <div className={styles.titleCoffee}>Свежеобжаренный кофе</div>
-                    <span className={displayBtn1}>Купить</span>
+                    <Link to = "/catalogCoffee" className={displayBtn1}>Купить</Link>
                 </div>
                 <div className={styles.item} onMouseOver = {mouthOn2} onMouseLeave = {mouthLeave2}>
                     <img src={teapot} className = {styles.imageTeapot} alt=""/>
                     <div className={styles.titleTeapot}>Чай и кофейные напитки</div>
-                    <span className={displayBtn2}>Купить</span>
+                    <Link to = "/catalogTea" className={displayBtn2}>Купить</Link>
                 </div>
                 <div className={styles.item} onMouseOver = {mouthOn3} onMouseLeave = {mouthLeave3}>
                     <img src={coffee_mashine} className = {styles.imageCoffeeMashine} alt=""/>
                     <div className={styles.titleCoffeeMashine}>Продукты для <br/> вендинга</div>
-                    <span className={displayBtn3}>Купить</span>
+                    <Link to = "/catalogVending" className={displayBtn3}>Купить</Link>
                 </div>
                 <div className={styles.item} onMouseOver = {mouthOn4} onMouseLeave = {mouthLeave4}>
                     <img src={cereal} className = {styles.imageCereal} alt=""/>
                     <div className={styles.titleCereal}>Здоровое питание</div>
-                    <span className={displayBtn4}>Купить</span>
+                    <Link to = "/catalogHelthFood" className={displayBtn4}>Купить</Link>
                 </div>
             </div>
         </>

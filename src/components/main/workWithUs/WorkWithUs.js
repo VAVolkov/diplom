@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import iconCup from '../workWithUs/image/iconCup.png';
 import iconArrow from '../workWithUs/image/iconArrow.png';
 import iconHuman from '../workWithUs/image/iconHuman.png';
@@ -11,7 +12,7 @@ export default function WorkWithUs() {
    
     return ( 
         <div className={styles.main}>
-            <a className={styles.viewAll}>Смотреть все</a>
+            <Link to = "/main/WorkWithUs/viewAll" className={styles.viewAll}>Смотреть все</Link>
             <div className={styles.answer}>Почему стоит работать <br/> именно с нами?</div>
             <img src={iconCup} className = {styles.iconCup} alt="icon"/>
                 <div className={styles.labelIconCup}>Всегда свежая обжарка</div>
