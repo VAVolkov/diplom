@@ -22,7 +22,7 @@
     color: #FFFFFF;
 }
 
-.image{
+.cupAndBeans{
     position: absolute;
     width: 600px;
     height: 600px;
@@ -171,4 +171,95 @@
 
 .checkActive{
     background: #F9B300;
+}
+
+.boxMenu__2{
+    position: absolute;
+    width: 880px;
+    height: 373px;
+    left: 385px;
+    top: 301px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 21.2553px rgba(149, 149, 149, 0.25);
+    border-radius: 14px;
+}
+
+.geography{
+    position: absolute;
+    width: 92px;
+    height: 22px;
+    left: 66px;
+    top: 56px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.sourness{
+    position: absolute;
+    width: 83px;
+    height: 22px;
+    left: 260px;
+    top: 56px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.special{
+    position: absolute;
+    width: 70px;
+    height: 22px;
+    left: 396px;
+    top: 56px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.typeCoffee{
+    position: absolute;
+    width: 82px;
+    height: 22px;
+    left: 580px;
+    top: 56px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.typeHandling{
+    position: absolute;
+    width: 120px;
+    height: 42px;
+    left: 260px;
+    top: 194px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.strip__2{
+    position: absolute;
+    width: 770px;
+    height: 10px;
+    left: 60px;
+    top: 25px;
+    background: #F9B300;
+    border-radius: 7px;
 }
