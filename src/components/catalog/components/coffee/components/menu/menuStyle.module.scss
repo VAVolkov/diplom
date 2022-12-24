@@ -230,7 +230,7 @@
     position: absolute;
     width: 82px;
     height: 22px;
-    left: 580px;
+    left: 570px;
     top: 56px;
     font-family: 'Gilroy';
     font-style: normal;
@@ -245,7 +245,7 @@
     width: 120px;
     height: 42px;
     left: 260px;
-    top: 194px;
+    top: 184px;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 700;
@@ -263,3 +263,124 @@
     background: #F9B300;
     border-radius: 7px;
 }
+
+.geographyBox{
+    position: absolute;
+    top: 90px;
+    left: 65px;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.check{
+    width: 17px;
+    height: 17px;
+    left: 60px;
+    top: 85px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.checkBoxLine{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkLabel{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 15px;
+    margin-top: 2px;
+    color: #000000;
+}
+
+.sournessBox{
+    position: absolute;
+    top: 90px;
+    left: 258px;
+    width: 150px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.specialBox{
+    position: absolute;
+    top: 90px;
+    left: 395px;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.typeCoffeeBox{
+    position: absolute;
+    top: 90px;
+    left: 568px;
+    width: 200px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.typeHandlingBox{
+    position: absolute;
+    top: 243px;
+    left: 258px;
+    width: 150px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardsBox{
+    position: absolute;
+    width: 1180px;
+    height: 135px;
+    top: 700px;
+    left: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card{
+    width: 134px;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: inset 0 3em 3em rgb(255,255,255),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.card > h5{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+.pic{
+    margin: 10px auto;
+    width: 63px;
+    height: 63px;
+}
+
+

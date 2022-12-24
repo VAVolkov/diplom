@@ -1,0 +1,54 @@
+.main{
+    position: absolute;
+    width: 1349px;
+    height: 1773px;
+    left: 0px;
+    top: 961px;
+    background: #F5F5F5;
+}
+
+.main > h3{
+    position: absolute;
+    width: 85px;
+    height: 17px;
+    left: 85px;
+    top: 25px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.cardGrid{
+    position: absolute;
+    top: 90px;
+    left: 85px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+}
+
+.btn{
+    position: absolute;
+    width: 1180px;
+    height: 49px;
+    left: 85px;
+    top: 1623px;
+    padding-top: 16px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    background: #FFFFFF;
+    border: 0.708508px solid #E4E4E4;
+    border-radius: 7px;
+    cursor: pointer;
+}
