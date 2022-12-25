@@ -13,7 +13,7 @@ export default function MenuTea() {
  
     return ( 
         <div className={styles.main}>
-            <div className={styles.comments}>Хлебные крошки</div>
+            <div className={styles.comments}>Главная Каталог товаров Чай и кофейные напитки</div>
             <img src={teapot} className = {styles.teapot} alt="Picture"/>
             <div className={styles.label}>Чай и кофейные напитки</div>
             <div className={styles.menuBox}>

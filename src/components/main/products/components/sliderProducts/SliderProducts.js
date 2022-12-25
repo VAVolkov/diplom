@@ -23,13 +23,13 @@ export default function SliderProducts() {
             <div className='headerText'> Наша компания предлагает покупать товар со скидкой не только в дни распродаж или в течение действия ограниченных предложений, но и пользоваться скидками постоянно! </div>
             
             <Slider className="mainProducts" {...settings}>
-                <SlideProducts />
-                <SlideProducts />
-                <SlideProducts />
-                <SlideProducts />
-                <SlideProducts />
-                <SlideProducts />
-                <SlideProducts />
+                <SlideProducts discount = {true}/>
+                <SlideProducts discount = {true}/>
+                <SlideProducts discount = {true}/>
+                <SlideProducts discount = {true}/>
+                <SlideProducts discount = {true}/>
+                <SlideProducts discount = {true}/>
+                <SlideProducts discount = {true}/>
             </Slider>
         </>
     ); 

@@ -39,10 +39,10 @@
 
 .emailText{
     position: absolute;
-    width: 93px;
-    height: 23px;
+    width: 500px;
+    height: 40px;
     left: 40px;
-    top: 17px;
+    top: 10px;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 500;
@@ -50,6 +50,8 @@
     line-height: 130%;
     color: #C9C9C9;
     z-index: 10;
+    border: none;
+    background-color: #F3F3F3;
 }
 
 .btn{

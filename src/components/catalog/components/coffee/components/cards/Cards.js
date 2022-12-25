@@ -11,7 +11,7 @@ export default function Cards() {
             <div className={styles.cardGrid}>
                 <SlideProducts />
                 <SlideProducts />
-                <SlideProducts />
+                <SlideProducts discount = {true}/>
                 <SlideProducts />
 
                 <SlideProducts />

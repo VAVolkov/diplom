@@ -21,7 +21,7 @@ export default function MainHeader() {
    
     return ( 
     <div className={styles.mainHeader}>
-        <img src={logo} className = {styles.imageLogo} alt="Логотип"/>
+        <Link to="/"> <img src={logo} className = {styles.imageLogo} alt="Логотип"/></Link>
         
         <Link to="/catalog" className={styles.catalogTovarov}>Каталог товаров</Link>
         <Link to="/blog" className={styles.blog}>Блог</Link>
@@ -33,7 +33,9 @@ export default function MainHeader() {
 
         <div className={styleSearchPlace}>
             <img src={search} className = {styles.imageSearchPlace} alt="Поиск"/>
-            <p className={styles.text}>Поиск по товарам</p>
+            <form>
+                    <input type="text" name="text" defaultValue="Поиск по товарам" className={styles.text} /> 
+            </form>
         </div>
     </div>
     ); 

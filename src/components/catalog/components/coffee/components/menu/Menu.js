@@ -33,7 +33,7 @@ export default function Menu() {
                     console.log(bg);
                     //setBg(...bg, bg[line-1] = styles.checkActive);
                     //console.log(bg);
-    },[line])
+    },[line, bg])
   
     //География
     const [lineGeography, setLineGeography] = useState(0);
@@ -80,7 +80,7 @@ export default function Menu() {
 
     return ( 
         <div className={styles.main}>
-            <div className={styles.comments}>Хлебные крошки</div>
+            <div className={styles.comments}>Главная Каталог товаров Свежеобжаренный кофе </div>
             <img src={cupAndBeans} className = {styles.cupAndBeans} alt="Picture"/>
             <div className={styles.label}>Свежеобжаренный кофе</div>
 

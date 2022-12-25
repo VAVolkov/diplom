@@ -5,8 +5,9 @@ import itemCoffee from './images/itemCoffee.png';
 import itemProducts from './images/itemProducts.png';
 import starOn from './images/starOn.png';
 import starOff from './images/starOff.svg';
+import discountImage from './images/discounts.png';
 
-export default function SlideProducts() {
+export default function SlideProducts({discount}) {
    
     const [massa, setMassa] = useState('250г.');
     const [selectorStatus, setSelectorStatus] = useState(styles.closeShow);
@@ -48,6 +49,7 @@ export default function SlideProducts() {
 
             <div className={styles.discounts}> Скидки </div>
             <img src={itemProducts} className = {styles.imageMain} alt="картинка"/>
+            <img src={discountImage} className = {discount?styles.discount:styles.noShow} alt="скидки"/>
             <div className={starStatus}>
                 <img src={starOn} className = {styles.imageStar} alt="star"/>
                 <img src={starOn} className = {styles.imageStar} alt="star"/>

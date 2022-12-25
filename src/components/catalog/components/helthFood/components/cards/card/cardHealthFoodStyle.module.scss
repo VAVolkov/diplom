@@ -1,0 +1,319 @@
+.main{
+    width: 280px;
+    height: 461px;
+    background-color: #E4E4E4;
+    position: relative;
+    background: #FFFFFF;
+    border: 0.708508px solid #E4E4E4;
+    box-shadow: 0px 0px 20px rgba(201, 201, 201, 0.25);
+    border-radius: 14px;   
+}
+
+.massSelector{
+    position: absolute;
+    left: 159px;
+    top: 15px;
+    width: 93px;
+    height: 110px;
+    z-index: 100;
+}
+
+.massSelector__wrapper{
+    z-index: 100;
+}
+
+.firstLine{
+    display: flex;
+    flex-direction: row;
+    width: 93px;
+    height: 23px;
+    background: #FFF7E1;
+    border: 0.708508px solid #F9B300;
+    border-radius: 4px;
+    padding: 3px 0px 0px 22px;
+}
+
+.positionMassStart{
+    display: inline;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+}
+
+.positionMass{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+    padding: 3px 0px 3px 0px;
+    border: 0.708508px solid #F9B300;
+    border-radius: 4px;
+    background-color: #FFF7E1;
+    z-index: 100;
+}
+
+.btnSelect{
+    transform: rotate(0.25turn);
+    width: 8px;
+    height: 3px;
+    color: black;
+    margin: 5px 18px 10px 20px;
+    cursor: pointer;
+}
+
+.closeShow{
+    display: none;
+}
+
+//конец описания селектора
+
+//остальная часть карты
+
+.discounts{
+    position: absolute;
+    width: 47px;
+    height: 15px;
+    left: 25px;
+    top: 37px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #F9B300;
+}
+
+.imageMain{
+    position: absolute;
+    width: 158.56px;
+    height: 221px;
+    left: 61px;
+    top: 75px;
+
+}
+
+//оценка зведами
+.stars{
+    position: absolute;
+    width: 94px;
+    height: 18px;
+    left: 25px;
+    top: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.imageStar{
+    width: 18px;
+    height: 18px;
+}
+//_______________________
+
+.grade{
+    position: absolute;
+    width: 23px;
+    height: 17px;
+    left: 25px;
+    top: 44px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+}
+
+.feedback{
+    position: absolute;
+    width: 53px;
+    height: 11px;
+    left: 52px;
+    top: 48px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #5B5B5B;
+}
+
+
+//________________________
+
+.sourness{
+    position: absolute;
+    width: 56px;
+    height: 15px;
+    left: 161px;
+    top: 179px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #222222;
+}
+
+.bitterness{
+    position: absolute;
+    width: 55px;
+    height: 15px;
+    left: 161px;
+    top: 219px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #222222;
+}
+
+.saturation{
+    position: absolute;
+    width: 89px;
+    height: 15px;
+    left: 161px;
+    top: 259px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #222222;
+}
+
+.gradeBarSourness, .gradeBarBitterness, .gradeBarSaturation{
+    position: absolute;
+    width: 88px;
+    height: 7px;
+    left: 161px;
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gradeBarBitterness{
+    left: 161px;
+    top: 240px;
+}
+
+.gradeBarSaturation{
+    left: 161px;
+    top: 280px;
+}
+
+.pointOn{
+    width: 7px;
+    height: 7px;
+    background: #F9B300;
+    border-radius: 50%;
+}
+
+.pointOff{
+    width: 7px;
+    height: 7px;
+    background: #F0F0F0;
+    border-radius: 50%;
+}
+
+//_________________________________
+
+.name{
+    position: absolute;
+    width: 200px;
+    height: 22px;
+    left: 25px;
+    top: 312px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #222222;
+}
+
+.label{
+    position: absolute;
+    width: 80px;
+    height: 15px;
+    left: 25px;
+    top: 354px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #222222;
+}
+
+//____________________________
+
+.priceOld{
+    position: absolute;
+    width: 48px;
+    height: 21px;
+    left: 25px;
+    top: 372px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #C6C6C6;
+    display: none;
+}
+
+.priceNew{
+    position: absolute;
+    width: 66px;
+    height: 31px;
+    left: 25px;
+    top: 393px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #222222;
+}
+
+.btnToBin{
+    position: absolute;
+    width: 125px;
+    height: 33px;
+    left: 130px;
+    top: 391px;
+    background: #F9B300;
+    border-radius: 4px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 9px;
+}
+
+.discount{
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 206px;
+    top: 83px;
+}
+
+.noShow{
+    display: none;
+}

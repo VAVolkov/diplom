@@ -1,0 +1,29 @@
+.main{
+    width: 280px;
+    height: 224px;
+    background-color: white;
+    //border-radius: 10px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: inset 0 3em 3em rgb(255,255,255),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);  
+}
+
+.image{
+    margin: 15px 0 0 23px;
+    width: 234px;
+    height: 123px;
+}
+
+.label{
+    margin: 20px auto;
+    width: 240px;
+    text-align: center;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}

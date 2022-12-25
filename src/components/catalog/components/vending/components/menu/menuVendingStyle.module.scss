@@ -1,0 +1,73 @@
+.main{
+    position: absolute;
+    width: 1349px;
+    height: 850px;
+    top: 113px;
+    left: 0;
+    background: left top url('./images/bg.png') no-repeat;
+    //overflow: hidden;
+}
+
+.comments{
+    position: absolute;
+    width: 304px;
+    height: 14px;
+    left: 85px;
+    top: 30px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.coffee_machine{
+    position: absolute;
+    width: 380px;
+    height: 400px;
+    right: 0;
+    top: 164px;
+    z-index: 1;
+}
+
+.label{
+    position: absolute;
+    width: 597px;
+    height: 62px;
+    left: 85px;
+    top: 144px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.menuBox{
+    position: absolute;
+    width: 1190px;
+    height: 550px;
+    top: 283px;
+    left: 85px;
+}
+
+.firstLine{
+    width: 880px;
+    height: 227px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    
+}
+
+.secondLine{
+    margin-top: 20px;
+    width: 1180px;
+    height: 227px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
