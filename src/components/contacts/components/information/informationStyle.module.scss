@@ -1,0 +1,201 @@
+.main{
+    position: absolute;
+    width: 1349px;
+    height: 950px;
+    top: 113px;
+    left: 0;
+    background: bottom left url('./images/bg.png') no-repeat;
+}
+
+.labelPage{
+    position: absolute;
+    left: 85px;
+    top: 30px;
+}
+
+.btnInfoContacts{
+    position: absolute;
+    width: 580px;
+    height: 42px;
+    left: 85px;
+    top: 79px;
+
+    background: #FFF7E1;
+    border: 1px solid #F9B300;
+    border-radius: 4px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #F9B300;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+.btnInfoShops{
+    position: absolute;
+    width: 580px;
+    height: 42px;
+    left: 685px;
+    top: 79px;
+
+    background: #F6F6F6;
+    border: 1px solid #C9C9C9;
+    border-radius: 4px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #F9B300;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+.contactWithUs{
+    position: absolute;
+    left: 86px;
+    top: 185px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.contactWithUsContent{
+    position: absolute;
+    left: 86px;
+    top: 219px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #222222;
+}
+
+.registeredOffice{
+    position: absolute;
+    left: 85px;
+    top: 313px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.registeredOfficeContent{
+    position: absolute;
+    left: 85px;
+    top: 359px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #222222;
+}
+
+.storageAddress{
+    position: absolute;
+    left: 85px;
+    top: 457px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.storageAddressContent{
+    position: absolute;
+    left: 85px;
+    top: 504px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #222222;
+}
+
+.shopsSaintPetersburg{
+    position: absolute;
+    left: 85px;
+    top: 185px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.shopsSaintPetersburgContent{
+    position: absolute;
+    left: 85px;
+    top: 231px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.shopsKaliningrad{
+    position: absolute;
+    left: 85px;
+    top: 293px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.shopsKaliningradContent{
+    position: absolute;
+    left: 85px;
+    top: 340px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+}
+
+
+.noShow{
+    display: none;
+}
+
+.mapLoads{
+    position: absolute;
+    width: 680px;
+    height: 372px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #A4A4A4;
+}
+
+.map{
+    position: absolute;
+    width: 680px;
+    height: 372px;
+    left: 585px;
+    top: 185px;
+    border: 1px solid #A4A4A4;
+}

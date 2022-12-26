@@ -10,7 +10,7 @@ export default function MenuHealthFood() {
  
     return ( 
         <div className={styles.main}>
-            <div className={styles.comments}>Главная Каталог товаров Чай и кофейные напитки</div>
+            <div className={styles.comments}>Главная Каталог товаров Здоровое питание</div>
             <img src={helthFood} className = {styles.helthFood} alt="Picture"/>
             <div className={styles.label}>Здоровое питание</div>
             <div className={styles.menuBox}>
