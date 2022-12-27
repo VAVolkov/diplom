@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 import classNames from 'classnames';
 import styles from './menuStyle.module.scss';
 import cupAndBeans from './images/cupAndBeans.png';
@@ -203,7 +203,7 @@ export default function Menu() {
                     </div>
                     <div className = {styles.checkBoxLine}>
                         <div className={classNames(styles.check, bgTypeCoffee[3])} onClick = {() => {setBgTypeCoffee(bgTypeCoffee__4)}} /> 
-                        <div className={styles.checkLabel}>Смесь арабика/рабуста</div>
+                        <div className={styles.checkLabel}>Смесь арабика/ <br className = {styles.tabletStyle} />рабуста</div>
                     </div>
                 </div>
 

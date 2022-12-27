@@ -52,3 +52,91 @@
     border-radius: 7px;
     cursor: pointer;
 }
+
+
+//tablet
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main{
+        width: 768px;
+        height: 2000px;
+        left: 0px;
+        top: 3440px;
+    }
+    
+    .main > h3{
+        width: 116px;
+        height: 26px;
+        left: 55px;
+        top: 60px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .cardGrid{
+        top: 126px;
+        left: 34px;
+        height: 1700px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        overflow: hidden;
+    }
+    
+    .btn{
+        width: 700px;
+        height: 70px;
+        left: 34px;
+        top: 1850px;
+        padding-top: 18px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+}
+
+//phone
+@media (min-width: 320px) and (max-width: 767px) {
+    .main{
+        width: 375px;
+        height: 1905px;
+        left: 0px;
+        top: 1675px;
+    }
+    
+    .main > h3{
+        width: 105px;
+        height: 21px;
+        left: 38px;
+        top: 40px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    .cardGrid{
+        top: 90px;
+        left: 18px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-row-gap: 20px;
+        height: 1705px;
+        width: 375px;
+        overflow: hidden;
+
+    }
+    
+    .btn{
+        width: 340px;
+        height: 50px;
+        left: 18px;
+        top: 1823px;
+        padding-top: 14px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .phoneStyle{
+        display: none;
+    }
+}

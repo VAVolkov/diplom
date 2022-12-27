@@ -1,5 +1,6 @@
 import React from 'react';
 import cup from '../subscriptionLevel__2/images/cup.png';
+import cup_tablet from './images/cup_tablet.png';
 
 import styles from './subscription2Style.module.scss';
 
@@ -7,8 +8,8 @@ export default function Subscription2() {
    
     return ( 
         <div className={styles.main}>
-            <div className={styles.label}>Подписка на новости и рассылку</div>
-            <div className={styles.text}>Подпишитесь на нашу рассылку прямо сейчас и будьте в <br/> курсе новых поставок, скидок и эксклюзивных предложений.</div>
+            <div className={styles.label}>Подписка на новости и рассылку</div> 
+            <div className={styles.text}>Подпишитесь на нашу рассылку прямо сейчас и будьте в <br className={styles.phoneStyleBlockShow}/> курсе новых поставок, скидок и эксклюзивных предложений.</div>
             <div className={styles.email}>
                 <form>
                     <input type="text" name="text" defaultValue="Ваш email" className={styles.emailText} /> 
@@ -16,6 +17,7 @@ export default function Subscription2() {
             </div>
             <div className={styles.btn}>Подписаться</div>
             <img src={cup} className = {styles.cup} alt="cup"/>
+            <img src={cup_tablet} className = {styles.cup_tablet} alt="cup"/>
             <div className={styles.footer}>Нажимая на кнопку “Подписаться”, вы принимаете правила <span className={styles.textYellow}> пользовательского соглашения </span> </div>
         </div>
     );

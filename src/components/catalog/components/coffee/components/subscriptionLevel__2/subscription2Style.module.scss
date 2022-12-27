@@ -109,3 +109,169 @@
 .textYellow{
     color:#F9B300;
 }
+
+.cup_tablet{
+    display: none;
+}
+
+//tablet
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main{
+        position: absolute;
+        width: 768px;
+        height: 1000px;
+        left: 0px;
+        top: 5440px;
+        background: top left url('./images/bg_tablet.png') no-repeat;
+    }
+        
+    .label{
+        width: 475px;
+        height: 37px;
+        left: 34px;
+        top: 420px;
+        font-size: 30px;
+        line-height: 37px;
+    }
+    
+    .text{
+        position: absolute;
+        width: 605px;
+        height: 52px;
+        left: 34px;
+        top: 520px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    
+    .email{
+        width: 700px;
+        height: 70px;
+        left: 34px;
+        top: 626px;
+        border-radius: 5px;
+    }
+    
+    .emailText{
+        width: 110px;
+        height: 29px;
+        left: 80px;
+        top: 20px;
+        font-size: 22px;
+    }
+    
+    .btn{
+        width: 700px;
+        height: 70px;
+        left: 34px;
+        top: 710px;
+        font-size: 25px;
+        line-height: 30px;
+        color: #FFFFFF;
+        border-radius: 5px;
+    }
+    
+    .cup{
+        display: none;
+    }
+    
+    .cup_tablet{
+        position: absolute;
+        width: 540px;
+        height: 460px;
+        left: 76px;
+        top: -44px;
+        display: initial;
+    }
+
+    .footer{
+        width: 492px;
+        height: 54px;
+        left: 34px;
+        top: 806px;
+        font-size: 20px;
+    }
+ 
+}
+
+//phone
+@media (min-width: 320px) and (max-width: 767px) {
+    .main{
+        position: absolute;
+        width: 361px;
+        height: 750px;
+        left: 0px;
+        top: 3580px;
+        background: top left url('./images/bg_phone.png') no-repeat;
+    }
+        
+    .label{
+        width: 320px;
+        height: 25px;
+        left: 18px;
+        top: 280px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    .text{
+        width: 320px;
+        height: 54px;
+        left: 18px;
+        top: 340px;
+        font-size: 14px;
+        line-height: 130%;
+    }
+    .phoneStyleBlockShow{
+        display: none;
+    }
+
+    .email{
+        width: 340px;
+        height: 50px;
+        left: 18px;
+        top: 426px;
+        border-radius: 5px;
+    }
+    
+    .emailText{
+        width: 70px;
+        height: 18px;
+        left: 58px;
+        top: 15px;
+        font-size: 14px;
+    }
+    
+    .btn{
+        width: 340px;
+        height: 50px;
+        left: 18px;
+        top: 500px;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        border-radius: 5px;
+        padding-top: 15px;
+    }
+    
+    .cup{
+        display: none;
+    }
+    
+    .cup_tablet{
+        position: absolute;
+        width: 360px;
+        height: 290px;
+        left: 10px;
+        top: -16px;
+        display: initial;
+    }
+
+    .footer{
+        width: 250px;
+        height: 26px;
+        left: 18px;
+        top: 560px;
+        font-size: 10px;
+    }
+}

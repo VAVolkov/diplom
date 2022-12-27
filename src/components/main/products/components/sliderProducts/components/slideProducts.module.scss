@@ -333,3 +333,191 @@
 .noShow{
     display: none;
 }
+
+.discounts_tablet{
+    display: none;
+}
+
+//tablet+phone
+@media (min-width: 320px) and (max-width: 1024px) {
+    
+    .cardProducts{
+        width: 340px;
+        height: 552px;
+    }
+    
+    .massSelector{
+        left: 197px;
+        top: 21px;
+        width: 110px;
+        height: 110px;
+    }
+    
+    .massSelector__wrapper{
+        z-index: 100;
+    }
+    
+    .firstLine{
+        width: 110px;
+    }
+    
+    .positionMassStart{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    .btnSelect{
+        margin: 5px 18px 10px 27px;
+    }
+    
+    .closeShow{
+        display: none;
+    }
+    
+    //конец описания селектора
+    //остальная часть карты
+    
+    .discounts{
+        display: none;
+    }
+    
+    .discounts_tablet{
+        position: absolute;
+        width: 100px;
+        height: 15px;
+        left: 25px;
+        top: 20px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        color: #F9B300;
+        display: initial;
+    }
+
+    .imageMain{
+        width: 144px;
+        height: 260px;
+        left: 35px;
+        top: 83px;
+    }
+    
+    //оценка зведами
+    .stars{
+        left: 198px;
+        top: 106px;
+    }
+    //_______________________
+    
+    .grade{
+        left: 198px;
+        top: 130px;
+    }
+    
+    .feedback{
+        left: 225px;
+        top: 134px;
+    }
+    
+    //кофейные зерна
+    .coffeBeans{
+        left: 198px;
+        top: 165px;
+    }
+
+    //________________________
+    
+    .sourness{
+        left: 198px;
+        top: 203px;
+    }
+    
+    .bitterness{
+        left: 198px;
+        top: 243px;
+    }
+    
+    .saturation{
+        left: 198px;
+        top: 283px;
+    }
+    
+    .gradeBarSourness, .gradeBarBitterness, .gradeBarSaturation{
+        left: 198px;
+        top: 224px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .gradeBarBitterness{
+        left: 198px;
+        top: 264px;
+    }
+    
+    .gradeBarSaturation{
+        left: 198px;
+        top: 304px;
+    }
+    
+   
+    //_________________________________
+    
+    .coffeeName{
+        width: 200px;
+        height: 26px;
+        left: 35px;
+        top: 373px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+    
+    .coffeeLabel{
+        width: 210px;
+        height: 35px;
+        left: 35px;
+        top: 409px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    //____________________________
+    
+    .priceOld{
+        display: none;
+    }
+    
+    .priceNew{
+        width: 71px;
+        height: 34px;
+        left: 35px;
+        top: 473px;
+        font-size: 26px;
+        line-height: 32px;
+    }
+    
+    .btnToBin{
+        width: 149px;
+        height: 40px;
+        left: 153px;
+        top: 470px;
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+    
+    .discount{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 25px;
+        top: -7px;
+    
+    }
+    
+    .noShow{
+        display: none;
+    }
+    
+}

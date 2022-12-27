@@ -5,3 +5,19 @@
     margin: 20px auto;
     background: #FFFFFF;
 }
+
+//tablet
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main{
+        width: 768px;
+        height: 6603px;
+    }
+}
+
+//phone
+@media (min-width: 320px) and (max-width: 767px) {
+    .main{
+        width: 375px;
+        height: 4358px;
+    }
+}

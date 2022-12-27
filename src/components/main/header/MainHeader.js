@@ -5,6 +5,7 @@ import logo from '../header/image/logo.png';
 import bin from '../header/image/bin.png';
 import login from '../header/image/login.png';
 import search from '../header/image/search.png';
+import propeties from './image/propeties.png';
 import styles from './mainHeaderStyle.module.scss';
 
 
@@ -21,6 +22,7 @@ export default function MainHeader() {
    
     return ( 
     <div className={styles.mainHeader}>
+        <img src={propeties} className = {styles.imagePropeties} alt="Логотип"/>
         <Link to="/"> <img src={logo} className = {styles.imageLogo} alt="Логотип"/></Link>
         
         <Link to="/catalog" className={styles.catalogTovarov}>Каталог товаров</Link>

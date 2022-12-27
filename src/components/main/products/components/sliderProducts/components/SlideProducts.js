@@ -48,6 +48,7 @@ export default function SlideProducts({discount}) {
             </div>
 
             <div className={styles.discounts}> Скидки </div>
+            <div className={styles.discounts_tablet}> Популярное <br/> Новый урожай </div>
             <img src={itemProducts} className = {styles.imageMain} alt="картинка"/>
             <img src={discountImage} className = {discount?styles.discount:styles.noShow} alt="скидки"/>
             <div className={starStatus}>

@@ -59,3 +59,91 @@
     color: #000000;
     cursor: pointer;
 }
+
+//tablet
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main{
+        width: 768px;
+        height: 200px;
+        left: 0 px;
+        top: 6300px;
+    }
+    
+    .logo{
+        width: 225px;
+        height: 102px;
+        left: 200px;
+        top: 123px;
+    }
+    
+    .catalog{
+        width: 199px;
+        height: 29px;
+        left: 90px;
+        top: 44px;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    
+    .blog{
+        width: 54px;
+        height: 29px;
+        left: 350px;
+        top: 44px;
+        font-size: 25px;
+        line-height: 29px;
+    }
+    
+    .contacts{
+        width: 110px;
+        height: 29px;
+        left: 455px;
+        top: 44px;
+        font-size: 25px;
+        line-height: 29px;
+    }
+}
+
+//phone
+@media (min-width: 320px) and (max-width: 767px) {
+    .main{
+        width: 375px;
+        height: 200px;
+        left: 0px;
+        top: 4200px;
+    }
+    
+    .logo{
+        width: 110px;
+        height: 50px;
+        left: 131px;
+        top: 70px;
+    }
+    
+    .catalog{
+        width: 100px;
+        height: 14px;
+        left: 70px;
+        top: 20px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .blog{
+        width: 26px;
+        height: 14px;
+        left: 195px;
+        top: 20px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .contacts{
+        width: 53px;
+        height: 14px;
+        left: 251px;
+        top: 20px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+}

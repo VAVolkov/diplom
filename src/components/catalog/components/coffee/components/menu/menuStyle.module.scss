@@ -385,4 +385,512 @@
     height: 63px;
 }
 
+.tabletStyle{
+    display: none;
+}
 
+//tablet
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main{
+        width: 768px;
+        height: 3600px;
+        top: 143px;
+        background: left top url('./images/bg_tablet.png') no-repeat;
+    }
+    
+    .comments{
+        width: 520px;
+        height: 25px;
+        left: 35px;
+        top: 30px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .cupAndBeans{
+        display: none;
+    }
+    
+    .label{
+        left: 34px;
+        top: 125px;
+    }
+    
+    .roasting{
+        width: 700px;
+        height: 620px;
+        left: 34px;
+        top: 745px;
+    }
+    
+    .labelRoasting{
+        width: 280px;
+        height: 40px;
+        left: 44px;
+        top: 105px;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    
+    .strip__1{
+        width: 634px;
+        height: 20px;
+        left: 33px;
+        top: 40px;
+        background: #F9B300;
+        border-radius: 7px;
+    }
+    
+    .boxOfLine__1{
+        width: 280px;
+        height: 40px;
+        left: 146px;
+        top: 194px;
+    }
+    
+    .boxOfLine__2{
+        width: 220px;
+        height: 40px;
+        left: 146px;
+        top: 274px;
+    }
+    
+    .boxOfLine__3{
+        width: 160px;
+        height: 40px;
+        left: 146px;
+        top: 354px;
+    }
+    
+    .boxOfLine__4{
+        width: 100px;
+        height: 40px;
+        left: 146px;
+        top: 434px;
+    }
+    
+    .boxOfLine__5{
+        width: 40px;
+        height: 40px;
+        left: 146px;
+        top: 514px;
+    }
+    
+    .bean{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .checkRoasting__1,.checkRoasting__2,.checkRoasting__3,.checkRoasting__4,.checkRoasting__5{
+        width: 40px;
+        height: 40px;
+        left: 44px;
+        top: 194px;
+        cursor: pointer;
+    }
+    
+    .checkRoasting__2{
+        top: 274px;
+    }
+    
+    .checkRoasting__3{
+        top: 354px;
+    }
+    
+    .checkRoasting__4{
+        top: 434px;
+    }
+    
+    .checkRoasting__5{
+        top: 514px;
+    }
+    
+    .boxMenu__2{
+        width: 700px;
+        height: 1142px;
+        left: 34px;
+        top: 1385px;
+    }
+    
+    .geography{
+        width: 165px;
+        height: 39px;
+        left: 50px;
+        top: 105px;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    
+    .sourness{
+        width: 153px;
+        height: 39px;
+        left: 396px;
+        top: 105px;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    
+    .special{
+        width: 134px;
+        height: 39px;
+        left: 50px;
+        top: 620px;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    
+    .typeCoffee{
+        width: 160px;
+        height: 39px;
+        left: 396px;
+        top: 705px;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    
+    .typeHandling{
+        width: 200px;
+        height: 39px;
+        left: 396px;
+        top: 380px;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    
+    .strip__2{
+        position: absolute;
+        width: 634px;
+        height: 20px;
+        left: 33px;
+        top: 40px;
+    }
+    
+    .geographyBox{
+        top: 184px;
+        left: 44px;
+        width: 300px;
+        height: 380px;
+    }
+    
+    .check{
+        width: 40px;
+        height: 40px;
+    }
+        
+    .checkLabel{
+        padding-top: 5px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .sournessBox{
+        top: 184px;
+        left: 390px;
+        width: 250px;
+        height: 155px;
+    }
+    
+    .specialBox{
+        top: 710px;
+        left: 50px;
+        width: 250px;
+        height: 380px;
+    }
+    
+    .typeCoffeeBox{
+        top: 785px;
+        left: 396px;
+        width: 350px;
+        height: 226px;
+     }
+    
+     .tabletStyle{
+        display: initial;
+    }
+
+    .typeHandlingBox{
+        top: 500px;
+        left: 396px;
+        width: 200px;
+        height: 155px;
+    }
+    
+    .cardsBox{
+        width: 700px;
+        height: 700px;
+        top: 2567px;
+        left: 34px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+    }
+    
+    .card{
+        width: 220px;
+        height: 220px;
+    }
+    
+    .card > h5{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .pic{
+        width: 140px;
+        height: 140px;
+    }
+    
+}
+
+//phone
+@media (min-width: 320px) and (max-width: 767px) {
+    .main{
+        width: 375px;
+        height: 3500px;
+        top: 70px;
+        background: left top url('./images/bg_phone.png') no-repeat;
+    }
+    
+    .comments{
+        width: 259px;
+        height: 12px;
+        left: 18px;
+        top: 30px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    
+    .cupAndBeans{
+        display: none;
+    }
+    
+    .label{
+        left: 18px;
+        top: 62px;
+        font-size: 25px;
+        line-height: 31px;
+    }
+    
+    .roasting{
+        width: 340px;
+        height: 303px;
+        left: 18px;
+        top: 364px;
+    }
+    
+    .labelRoasting{
+        width: 135px;
+        height: 19px;
+        left: 20px;
+        top: 50px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    .strip__1{
+        width: 310px;
+        height: 10px;
+        left: 15px;
+        top: 20px;
+    }
+    
+    .boxOfLine__1{
+        width: 140px;
+        height: 20px;
+        left: 70px;
+        top: 93px;
+    }
+    
+    .boxOfLine__2{
+        width: 110px;
+        height: 20px;
+        left: 70px;
+        top: 133px;
+    }
+    
+    .boxOfLine__3{
+        width: 80px;
+        height: 20px;
+        left: 70px;
+        top: 173px;
+    }
+    
+    .boxOfLine__4{
+        width: 50px;
+        height: 20px;
+        left: 70px;
+        top: 213px;
+    }
+    
+    .boxOfLine__5{
+        width: 20px;
+        height: 20px;
+        left: 70px;
+        top: 253px;
+    }
+    
+    .bean{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .checkRoasting__1,.checkRoasting__2,.checkRoasting__3,.checkRoasting__4,.checkRoasting__5{
+        width: 20px;
+        height: 20px;
+        left: 20px;
+        top: 93px;
+    }
+    
+    .checkRoasting__2{
+        top: 133px;
+    }
+    
+    .checkRoasting__3{
+        top: 173px;
+    }
+    
+    .checkRoasting__4{
+        top: 213px;
+    }
+    
+    .checkRoasting__5{
+        top: 253px;
+    }
+    
+    .boxMenu__2{
+        width: 340px;
+        height: 558px;
+        left: 18px;
+        top: 677px;
+    }
+    
+    .geography{
+        width: 80px;
+        height: 19px;
+        left: 20px;
+        top: 50px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    .sourness{
+        width: 80px;
+        height: 19px;
+        left: 189px;
+        top: 50px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    .special{
+        width: 80px;
+        height: 19px;
+        left: 20px;
+        top: 300px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    .typeCoffee{
+        width: 80px;
+        height: 19px;
+        left: 189px;
+        top: 367px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    .typeHandling{
+        width: 103px;
+        height: 38px;
+        left: 189px;
+        top: 200px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    .strip__2{
+        width: 310px;
+        height: 10px;
+        left: 15px;
+        top: 20px;
+    }
+    
+    .geographyBox{
+        top: 89px;
+        left: 20px;
+        width: 130px;
+        height: 175px;
+    }
+    
+    .check{
+        width: 20px;
+        height: 20px;
+    }
+        
+    .checkLabel{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .sournessBox{
+        top: 89px;
+        left: 189px;
+        width: 130px;
+        height: 70px;
+    }
+    
+    .specialBox{
+        top: 345px;
+        left: 19px;
+        width: 150px;
+        height: 175px;
+    }
+    
+    .typeCoffeeBox{
+        top: 406px;
+        left: 189px;
+        width: 160px;
+        height: 110px;
+     }
+
+     .tabletStyle{
+        display: initial;
+    }
+    
+    .typeHandlingBox{
+        top: 257px;
+        left: 189px;
+        width: 100px;
+        height: 70px;
+    }
+    
+    .cardsBox{
+        width: 350px;
+        height: 350px;
+        top: 1245px;
+        left: 18px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 12px;
+        grid-column-gap: 12px;
+    }
+    
+    .card{
+        width: 110px;
+        height: 110px;
+    }
+    
+    .card > h5{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .pic{
+        width: 70px;
+        height: 70px;
+    }
+}

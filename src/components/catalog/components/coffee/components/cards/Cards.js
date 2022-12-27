@@ -3,6 +3,7 @@ import SlideProducts from '../../../../../main/products/components/sliderProduct
 import styles from './cardsStyle.module.scss';
 
 
+
 export default function Cards() {
    
     return ( 
@@ -11,18 +12,18 @@ export default function Cards() {
             <div className={styles.cardGrid}>
                 <SlideProducts />
                 <SlideProducts />
-                <SlideProducts discount = {true}/>
+                <SlideProducts className={styles.phoneStyle} discount = {true}/>
                 <SlideProducts />
 
-                <SlideProducts />
-                <SlideProducts />
-                <SlideProducts />
-                <SlideProducts />
+                <SlideProducts className={styles.phoneStyle}/>
+                <SlideProducts className={styles.phoneStyle}/>
+                <SlideProducts className={styles.phoneStyle}/>
+                <SlideProducts className={styles.phoneStyle}/>
 
-                <SlideProducts />
-                <SlideProducts />
-                <SlideProducts />
-                <SlideProducts />
+                <SlideProducts className={styles.phoneStyle}/>
+                <SlideProducts className={styles.phoneStyle}/>
+                <SlideProducts className={styles.phoneStyle}/>
+                <SlideProducts className={styles.phoneStyle}/>
             </div>
             <div className={styles.btn}>Показать еще</div>
         </div>
