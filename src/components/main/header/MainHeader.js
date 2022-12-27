@@ -30,7 +30,7 @@ export default function MainHeader() {
         <Link to="/contacts" className={styles.contacts}>Контакты</Link>
         
         <img src={search} onClick = {mouthClick} className = {styles.imageSearch} alt="Поиск"/>
-        <img src={bin} className = {styles.imageBin} alt="Корзина"/>
+        <Link to="/bin" className={styles.bin}><img src={bin} className = {styles.imageBin} alt="Корзина"/></Link>
         <img src={login} className = {styles.imageLogin} alt="Вход"/>
 
         <div className={styleSearchPlace}>

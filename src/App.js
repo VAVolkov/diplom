@@ -10,6 +10,7 @@ import CatalogTea from "./components/catalog/components/tea/CatalogTea";
 import CatalogVending from "./components/catalog/components/vending/CatalogVending";
 import CatalogHealthFood from "./components/catalog/components/helthFood/CatalogHealthFood";
 import Contacts from "./components/contacts/Contacts";
+import Bin from "./components/bin/Bin";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="catalog/Vending" element = {<CatalogVending />}/>
             <Route path="catalog/HelthFood" element = {<CatalogHealthFood />}/>
           <Route path="/contacts" element = {<Contacts />}/>
+          <Route path="/bin" element = {<Bin />}/>
           <Route path="*" element = {<NotFoundPage />}/>
 
       </Routes>
